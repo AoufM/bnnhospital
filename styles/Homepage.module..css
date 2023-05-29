@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    height: 90vh;
+    display: flex;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#patient {
+    width: 50%;
+}
+
+#doctors {
+    width: 50%;
+}
+
+button {
+    margin: 20px 0 0 0;
+    padding: 8px 30px;
+    outline: none;
+    border: 3px solid #000;
+    background: none;
+    cursor: pointer;
+}
+
+.patient_button {
+    border-color: navy;
+    margin: 20px 10px 0 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.doctor_button {
+    border-color: darkgreen;
+}
+
+hr {
+    height: 80vh;
+    align-self: center;
+}
